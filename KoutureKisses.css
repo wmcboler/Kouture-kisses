@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* universal */
+
+html{
+	font-size: 30px;
+}
+
+body{
+	background-image:url("images/Untitled-1.jpg");
+	background-size: 5rem;
+	text-align: center;
+		
+}
+.flex-box{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.page-header{
+	background-color:hotpink;
+	border: .25rem solid silver;
+	padding: 10px;
+	
+}
+/* navigation bar  */
+header{
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	height: 3rem;
+	background-color:silver;
+}
+header img{
+	height: 3rem;
+	border-radius: 25%;
+}
+nav{
+	display: inline-block;
+	text-align: right;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	opacity:0.9;
+	flex-grow: 1;
+	margin: auto;
+	background-color:silver;
+	padding-right: 1rem;
+	
+}
+
+nav a{
+	color:black;
+	text-decoration: none;
+	font-weight: 900;
+}
+nav span{
+	display:inline-block;
+	padding:.25rem;
+	color: black;
+	
+}
+
+nav a:hover{
+	color: hotpink;
+}
+
+.navcurrent:hover{
+	color:white;
+}
+/* welcome-homepage */
+
+#welcome{
+	background-image:url("lipgloss images/IMG_2316.JPG");
+	position: relative;
+	top: 4rem;
+	width: 40rem;
+	height:25rem;
+	margin: auto;
+}
+#welcome h1{
+	margin: auto;
+	opacity: .60;
+	color: hotpink;
+	background-color: white;
+	width: 100%;
+	padding: .5rem 0rem;
+	font-size: 1.75rem;
+	font-weight: 900;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+/* gallery section */
+
+main{
+	padding-top: 2rem;
+	width: 100%;
+	margin: auto;
+}
+#content{
+	width: 30rem;
+	margin: auto;
+}
+
+.photo img{
+	height: 8rem;
+	width: 8rem;
+	opacity: 1;
+	margin: .5rem;
+	
+}
+.photo h3{
+	background-color: hotpink;
+	border: .25rem solid silver;
+	margin: .5rem;
+	
+	
+}
+
+.photo img:hover{
+	width: 9.25rem;
+	height: 9.25rem;
+	border: .30rem solid hotpink;
+	transition: .75s;	
+}
+/* order page */
+
+#submit{
+	border-radius: 25%;
+	
+}
+
+
